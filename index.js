@@ -29,3 +29,10 @@ let c = num2.map((x) => {
   return x * x;
 })
 console.log(c);
+
+//practice question 5
+let num3 = [1, 2, 3, 4, 5];
+let d = num3.reduce((x1, x2) => {
+  return x1 * x2;
+})
+console.log(d);
